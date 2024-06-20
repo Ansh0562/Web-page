@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(55, 68, 134);
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.firstSection, .aboutSection, .servicesSection, .projectsSection, .contactSection {
+    padding: 2rem;
+    text-align: center;
+}
+
+.leftSection {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.rightSection {
+    width: 50%;
+    display: inline-block;
+}
+
+.profile-photo {
+    max-width: 30%;
+    border-radius: 20px;
+}
+
+.project {
+    margin: 1rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(200, 200, 20);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: rgb(180, 180, 0);
+}
